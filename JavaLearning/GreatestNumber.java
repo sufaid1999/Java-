@@ -1,3 +1,5 @@
+// Q.Write a program to find the greatest number between three number.
+
 import java.util.Scanner;
 
 public class GreatestNumber {

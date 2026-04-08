@@ -21,6 +21,11 @@ public class EvenOdd{
             System.out.println("Here you know the input number is odd or even.");
             System.out.print("Please Enter a number: ");
             int number = sc.nextInt();
+            if((number & 1) == 1){
+                System.out.println(number + " is a odd number using Bitwise operator. ");
+            }else {
+                System.out.println(number + " is an even number using Bitwise operator.");
+            }
             EvenOdd Obj1 = new EvenOdd();
             Obj1.EvenOrOdd(number);
         }

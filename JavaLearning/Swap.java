@@ -1,4 +1,3 @@
-
 //Q.WAP to swap number between two variable.
 
 import  java.util.Scanner;
