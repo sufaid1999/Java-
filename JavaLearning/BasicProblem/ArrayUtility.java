@@ -22,6 +22,28 @@ public class ArrayUtility {
         
         return arr;
     }
+    public static int[][] array2dInput(Scanner sc){
+        System.out.println("Here we will take input for 2D array.");
+        System.out.print("Please enter the total number of row in this array: ");
+        int row = sc.nextInt();
+        System.out.print("Please enter the total number of column in this array: ");
+        int column = sc.nextInt();
+
+        int[][] numArr = new int[row][column];
+
+        int i = 0;
+        while(i<row){
+            int j = 0;
+            while(j<column){
+                System.out.print("Please enter a element: ");
+                numArr[i][j] = sc.nextInt();
+                j++;
+            }
+            i++;
+        }
+        return numArr;
+
+    }
 
     
     
